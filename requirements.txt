@@ -1,0 +1,7 @@
+discord.py>=2.3.2
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
+cryptography>=42.0.0
+web3>=6.15.0
+mnemonic>=0.21
+flask>=3.0.0

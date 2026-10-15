@@ -1,0 +1,75 @@
+{
+  "token": "MTU1NzgyNjQyNjE5Mzg0MjI4Ng.Guz_Na.Liu2UL869RZY5atsi14GVWssGvdNn9OerEjF_0",
+  "prefix": ".",
+  "guild_id": 1478296363027660973,
+  "colors": {
+    "main": "0x1a1a2e",
+    "accent": "0x4a6cf7",
+    "success": "0x2ecc71",
+    "error": "0xe74c3c",
+    "warning": "0xf39c12"
+  },
+  "fees": {
+    "under_50": 0.0,
+    "under_250": 0.5,
+    "over_250": 1.5
+  },
+  "channels": {
+    "panel": 1557818092191490120,
+    "deal_logs": 1557818094179713188,
+    "blacklist": 1557818096822124625,
+    "ticket_logs": 1557828309415501854,
+    "completed_crypto": 1557818971515003051
+  },
+  "categories": {
+    "auto_tickets": 1557820244053991565,
+    "human_tickets": 1557820301730123908,
+    "shop_tickets": 1557820344255914015
+  },
+  "roles": {
+    "admin": 1541726914446622780,
+    "staff": 1541726385473585182,
+    "verified": 0,
+    "blacklisted": 1557829070954172437
+  },
+  "bot_name": "Time AutoMM",
+  "footer": "Time AutoMM • Secure Middleman",
+  "tos_channel": "#tos-crypto",
+  "crypto": {
+    "ltc": true,
+    "usdt_bep20": false,
+    "sol": true
+  },
+  "wallet": {
+    "mode": "live",
+    "network": "mainnet",
+    "max_usd": 10,
+    "kill_switch": false,
+    "confirmations": {
+      "LTC": 2,
+      "SOL": "finalized",
+      "USDT": 15
+    },
+    "treasury": {
+      "LTC": "ltc1qvhv0d5fmd45z980xh5l207qlcqdsnxpguxstgh",
+      "SOL": "HE3r1QkiZxv5xwJWiukSScpWzNXXqMQS3383Jz8zibqR",
+      "USDT": "0x807D6393248f2208643cA36E9B7EA97baADb401e"
+    },
+    "usdt_contract": {
+      "mainnet": "0x55d398326f99059fF775485246999027B3197955",
+      "testnet": ""
+    },
+    "rpc": {
+      "mainnet": {
+        "LTC_EXPLORER": "https://ltcbook.nownodes.io",
+        "SOL": "https://api.mainnet-beta.solana.com",
+        "BSC": "https://bsc-dataseed.binance.org"
+      },
+      "testnet": {
+        "LTC_EXPLORER": "https://litecoinspace.org/testnet",
+        "SOL": "https://api.devnet.solana.com",
+        "BSC": "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
+      }
+    }
+  }
+}

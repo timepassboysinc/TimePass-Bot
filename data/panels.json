@@ -1,0 +1,51 @@
+{
+  "auto": {
+    "title": "Time's Auto Middleman",
+    "description": "\u2726Paid Service\n\u2726Read our ToS before using the bot <#1557818861028376676>",
+    "fees": "\u2726Deals $250+: $1.50\n\u2726Deals under $250: $0.50\n\u2726Deals under $50 are FREE",
+    "ltc_label": "Request LTC",
+    "sol_label": "Request SOL",
+    "ltc_emoji": "<:ltc:1533079212477648957>",
+    "sol_emoji": "<:SOL:1520774704473051307>"
+  },
+  "human": {
+    "title": "Human Middleman Service",
+    "description": "Need a real person to middleman your trade?\n\nClick the button below to open a ticket.\nPerfect for high-value or complicated deals.",
+    "button_label": "Request Human Middleman",
+    "button_emoji": ""
+  },
+  "nitro": {
+    "title": "__**\u2728 DISCORD NITRO**__",
+    "description": "\u2728 Choose the Nitro plan that fits you.\\n\\nOpen a ticket to order; we will confirm your plan and delivery details.",
+    "button_label": "Order Nitro",
+    "button_emoji": "<:nitro:1495471788501762261>",
+    "image_url": "https://media.discordapp.net/attachments/1557818148982624366/1558193418075897916/0df83e05-d069-4cb9-b224-7ae4a6039581.png?ex=6aca8c34&is=6ac93ab4&hm=32cd88de4f1b033cf99eed17d88347d11363d084f5b439559e06ed26e632c18b&=&format=webp&quality=lossless&width=1024&height=410",
+    "basic_price": "1.6$",
+    "basic_stock": "3-4",
+    "premium_price": "4.6$",
+    "premium_stock": "2-3"
+  },
+  "robux": {
+    "title": "__**\ud83d\udc8e ROBUX STORE**__",
+    "description": "\u2728 Fast, reliable Robux orders with smooth delivery.\n\nChoose your quantity in the ticket and our team will confirm your order.",
+    "button_label": "Order Robux",
+    "button_emoji": "<:Robux:1547945514647953541>",
+    "price": "$4.50 per 1,000 Robux",
+    "stock": "0 Robux Available",
+    "image_url": "https://media.discordapp.net/attachments/1557818148982624366/1558185513284927618/Robux_shop_gaming_banner.png?ex=6aca84d8&is=6ac93358&hm=b10cd8b6d967e3170a042da17c57b8264b69220765fc207344a728cbc2370289&=&format=webp&quality=lossless&width=1024&height=512"
+  },
+  "slots": {
+    "title": "<:Slots:1558424174219894804>  **__SLOTS FOR BUYING / SELLING__**",
+    "description": "<a:Money:1558431327743643729> Slots For Buying and Selling Stuff\n\n<:Pack:1558431946596417536> PACK 1 \u2014 $2\n\u2022 10 days\n\u2022 1 @everyone ping\n\n<:Pack:1558431946596417536>  PACK 2 \u2014 $6\n\u2022 30 days\n\u2022 3 @everyone pings\n\n\u2728 EXTRAS\n\u2022 @everyone ping \u2014 $1\n\u2022 @here ping \u2014 $0.50\n\u2022 7-day extension \u2014 $1",
+    "button_label": "Order Slots",
+    "button_emoji": "<:Slots:1558424174219894804>",
+    "image_url": ""
+  },
+  "boosts": {
+    "title": "__**Server Boosts**__ <:Boosts:1558153089280901140>",
+    "description": "**1 MONTH**\n\u2726 $1.8 per 14x\n\u2726 Full warranty for 30 days\n\n**3 MONTHS**\n\u2726 $6.5 per 14x\n\u2726 Full warranty for 30 days",
+    "button_label": "Order Now",
+    "button_emoji": "<:Boosts:1558153089280901140>",
+    "image_url": "https://media.discordapp.net/attachments/1557818148982624366/1558157404808675510/BOOSTS_gaming_banner.png?ex=6aca6aaa&is=6ac9192a&hm=8358345bc24caa5dee0657de3152deb44cd298c450250b4b926d2be197994271&=&format=webp&quality=lossless&width=3072&height=1536"
+  }
+}

@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: time-automm
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    healthCheckPath: /health
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: WALLET_MNEMONIC
+        sync: false
+      - key: WALLET_PASSPHRASE
+        sync: false
+      - key: GAS_WALLET_KEY
+        sync: false
+      - key: LTC_API_KEY
+        sync: false
