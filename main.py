@@ -37,7 +37,7 @@ async def on_ready():
 
 async def load_cogs():
     for filename in os.listdir("./cogs"):
-       if filename.endswith(".py") and not filename.startswith("__"):
+        if filename.endswith(".py") and not filename.startswith("__"):
             try:
                 await bot.load_extension(f"cogs.{filename[:-3]}")
                 print(f"✅ Loaded cog: {filename}")
@@ -50,7 +50,18 @@ async def main():
         raise SystemExit("❌ No bot token. Set the DISCORD_TOKEN environment variable.")
     async with bot:
         await load_cogs()
-        await bot.start(token)
+        # If Discord/Cloudflare blocks this IP (429 / error 1015), wait instead of
+        # crashing, so Render doesn't restart us every few seconds and extend the ban.
+        while True:
+            try:
+                await bot.start(token)
+                break
+            except discord.HTTPException as e:
+                if e.status == 429:
+                    print("⚠️ Discord/Cloudflare is blocking this IP (429). Waiting 30 minutes before retrying...")
+                    await asyncio.sleep(1800)
+                else:
+                    raise
 
 if __name__ == "__main__":
     keep_alive()  # tiny web server so Render + UptimeRobot keep the service awake
